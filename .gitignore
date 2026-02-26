@@ -1,0 +1,86 @@
+# Ignore all JSON files (credentials, secrets)
+*.json
+
+# -----------------------------
+# Python cache and build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+.env/
+.env*/
+.venv*/
+
+# -----------------------------
+# Streamlit secrets
+# -----------------------------
+.streamlit/secrets.toml
+
+# -----------------------------
+# Google credentials & JSON files
+# -----------------------------
+*.json
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+*.out
+*.err
+
+# -----------------------------
+# Large binaries / installers
+# -----------------------------
+*.exe
+*.msi
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.iso
+
+# -----------------------------
+# Databases / serialized data
+# -----------------------------
+*.sqlite
+*.db
+*.pkl
+*.h5
+
+# -----------------------------
+# Jupyter notebooks checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code / IDE settings
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# Git filter-repo backups
+# -----------------------------
+.git-filter-repo/
